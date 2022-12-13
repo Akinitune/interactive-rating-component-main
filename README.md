@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot rate1.jpg)
+(./screenshot rate1.jpg)
 (./screenshot rate2.jpg)
 (./screenshot rate3.jpg)
 (./screenshot rate4.jpg)
