@@ -1,0 +1,113 @@
+body{
+    background-color:  hsl(216, 12%, 8%);
+}
+.rating-main{z-index: 1;}
+.rating-main, .response{max-width:355px ;
+    height: 50%;
+    border: solid 1px transparent;
+    border-radius: 30px 30px 30px 30px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 25%;
+    left: 37%;
+    color: white;}
+
+@media screen and  (max-width:375px){
+      .rating-main, .response{
+        left:7%;
+        height: 60%;
+        max-width: 320px;
+      }  
+      .rating-main button{
+        margin-bottom: 3px;
+        height: 37px;}
+       
+    }
+.rating-main img{
+    padding: 35px 0px 0px 20px;
+     }
+.rating-main h1{
+    font-size: 22px;
+
+}
+.rating-main p{line-height: 17px;
+    font-size: 13px;
+    max-width:270px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+}
+.rating-main section{
+   max-width:280px;
+   padding-left: 25px;
+   padding-right: 20px;
+}
+.rating-main button{
+    margin-top: 16px;
+    
+}
+.rate-no{
+    display: flex;
+    width:280px;
+}
+
+
+.rate-no button{
+    color: hsl(217, 12%, 63%);
+    margin-left: 2px;
+    width: 37px;
+    height: 37px;
+    border: solid transparent;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100%;
+    
+}
+.rate-no button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+   }
+.rate-btn{
+    background-color: hsl(25, 97%, 53%);
+width: 273px;
+height: 30px;
+border: solid transparent;
+border-radius:30px 30px 30px 30px;
+color: white;
+}
+.rate-btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.response{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:355px ;}
+.fav{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.fav img{
+   width: 80px; 
+   height: 70px;
+}
+.response p{font-size: 13px;
+    text-align: center;
+    margin-top: -10px;
+    color:hsl(217, 12%, 63%) ;
+}
+.response h5{
+margin-bottom: 10px;
+    border: solid 1px transparent;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 14px;
+    font-weight: 100;
+    width: 160px;
+    height: 20px;
+    text-align: center;
+    background-color:hsl(216, 9%, 11%) ;
+    color:hsl(25, 97%, 53%) ;
+    padding: 1%;
+}
