@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot rate1.jpg)
+(./screenshot rate1.jpg)
 (./screenshot rate2.jpg)
 (./screenshot rate3.jpg)
 (./screenshot rate4.jpg)
@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: 
+- Live Site URL: https://akinitune.github.io/interactive-rating-component-main/
 
 ## My process
 
