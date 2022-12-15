@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="rating.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-16x16.png">
+  <link rel="stylesheet" href="index.css">
   
   <title>Frontend Mentor | Interactive rating component</title>
-  <script src="rating.js"></script>
+  <script src="index.js"></script>
   
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -17,14 +17,16 @@
 </head>
 <body>
 
- <div class="rating-main" id="hey">
+ <div class="rating-main" id="hey" role="main">
 
 <section>
-<img src="favicon-16x16.png" alt="H">
-
+  <header>
+<img src="favicon-16x16.png" role="banner">
+</header>
+<main>
  <h1> How did we do?</h1>
 
- <p> Please let us know how we did with your support request. All feedback is appreciated 
+ <p role="contentinfo"> Please let us know how we did with your support request. All feedback is appreciated 
   to help us improve our offering!</p>
 
   <div class="rate-no" >
@@ -35,7 +37,7 @@
     <button style="margin-left:23px; " onclick="ratingNumber(5)">5</button>
   </div>
 
-  <button class="rate-btn" onclick="gate()">SUBMIT</button>
+  <button class="rate-btn" onclick="gate()" role="button">SUBMIT</button>
 </section>
 
 
@@ -43,24 +45,24 @@
 
 </div>
 
- <div class="response">
+ <div class="response" role="main"> 
   <div class="fav">
 <img src="favicon.ico" alt="T"></div>
-  <h5 id="there"> You selected  out of 5</h5>
+  <h3 id="there"> You selected  out of 5</h3>
 
   <h2> Thank you!</h2>
 
   <p> We appreciate you taking the time to give a rating. <br> If you ever need more support, 
  don’t hesitate to <br> get in touch!</p>
-
+</main>
  
-
+<footer>
 <div class="attribution">
    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
    Coded by <a href="#">Itunu Akinyemi</a>.
  </div> 
- 
-</div>
+</footer>
 
+</div>
 </body>
 </html>
