@@ -2,8 +2,8 @@ body{
     background-color:  hsl(216, 12%, 8%);
 }
 .rating-main{z-index: 1;}
-.rating-main, .response{width:350px ;
-    height: 400px;
+.rating-main, .response{width:340px ;
+    height: 350px;
     border: solid 1px transparent;
     border-radius: 30px 30px 30px 30px;
     background-color: hsl(213, 19%, 18%);
@@ -82,7 +82,7 @@ color: white;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-max-width:350px ;}
+max-width:340px ;}
 .fav{
     
 display: flex;
