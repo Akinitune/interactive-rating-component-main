@@ -82,7 +82,7 @@ color: white;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-width:355px ;}
+max-width:355px ;}
 .fav{
     
 display: flex;
