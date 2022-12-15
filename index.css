@@ -3,7 +3,7 @@ body{
 }
 .rating-main{z-index: 1;}
 .rating-main, .response{width:355px ;
-    height: 400px;
+    height: 450px;
     border: solid 1px transparent;
     border-radius: 30px 30px 30px 30px;
     background-color: hsl(213, 19%, 18%);
