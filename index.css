@@ -10,7 +10,7 @@ body{
     position: absolute;
     top: 25%;
     left: 37%;
-    color: white;}
+    color: red;}
 
 @media screen and  (max-width:375px){
       .rating-main, .response{
